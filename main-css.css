@@ -181,25 +181,26 @@ div .form-field {
     margin: 30px auto;
 }
 
-div.gallery {
-    margin-top: 100px;
-    margin-left: 17px;
-    margin-right: 17px;
-    border: 1px solid #ccc;
-    width: 180px;
-    display: inline-block;
+.content img{
+    width: 300px;
+    height: 300px;
 }
 
-div.gallery:hover {
-    border: 1px solid mediumpurple;
+.container {
+    width: fit-content;
+    margin: 150px auto;
 }
 
-div.gallery img {
-    width: 100%;
-    height: auto;
+.content {
+    width: fit-content;
+    margin: 0 auto;
 }
 
-div.description {
-    padding: 15px;
-    text-align: center;
+.content ul {
+    list-style-type: none;
+}
+
+.content ul li {
+    margin: 40px;
+    float: left;
 }
