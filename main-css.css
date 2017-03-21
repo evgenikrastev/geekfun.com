@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Open+Sans|Varela+Round');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Diplomata SC', cursive;
+    font-family: 'Varela Round', sans-serif;
+    background: linear-gradient(#b3b3ff, #ffccff);
+    height: max-content;
+    height: max-content;
+}
+
+nav ul {
+    list-style: none;
+    background: transparent;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+}
+
+nav li {
+    font-size: 24px;
+    line-height: 45px;
+    height: 30px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 120px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #990099;
+    transition: ease-in-out 0.2s;
+    margin: 10px auto;
+    text-transform: uppercase;
+    padding: 0px;
+    text-shadow: 1px 1px #e6e6ff;
+}
+
+nav a:hover {
+    color: #990099;
+    font-weight: bold;
+    margin-left: 5px;
+    text-shadow: 3px 1px #ffe6ff;
+}
+
+#logo img {
+    display: block;
+    width: 150px;
+    margin: 50px auto;
+}
+
+header .intro {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #8080ff;
+    text-shadow: 2px 2px black; 
+    text-transform: uppercase;
+}
+
+header .others {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #8080ff;
+    text-shadow: 2px 2px black; 
+}
+
+
+.photo-videos img {
+    width: 1400px;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid mediumpurple;
+    border-radius: 25px;
+}
+
+.coming-soon p {
+    color: mediumpurple;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px purple;
+    text-align: center;
+    margin: 250px;
+}
+
+.about p {
+    color: mediumpurple;
+    font-size: 25px;
+    text-shadow: 1px 1px purple;
+    text-align: center;
+    margin: 100px;
+}
+
+section {
+    margin: 20px;
+}
+
+section .date {
+    color: #666666;
+    font-style: italic;
+    margin-top: 200px;
+}
+
+section img {
+    width: 650px;
+    height: 260px;
+    margin-right: 15px;
+    float: left;
+}
+
+section .text-article {
+    font-size: 25px;
+    color: #333333;
+    margin: 0px;
+    padding: 0 20px;
+}
+
+.text-article:before {
+    content: '\201C';
+}
+
+.text-article:after {
+    content: '\201D';
+}
+
+footer #footer {
+    font-size: 20px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+nav a:active {
+    color: #f2ccff;
+}
+
+form h1 {
+    color: mediumpurple;
+    font-size: 45px;
+    text-shadow: 1px 1px purple;
+    text-align: center;
+}
+
+div .name {
+    display: block;
+    width: 350px;
+    height: 30px;
+    border: 2px solid purple;
+    border-radius: 15px;
+    margin: 30px auto;
+}
+
+div .email {
+    display: block;
+    width: 350px;
+    height: 30px;
+    border: 2px solid purple;
+    border-radius: 15px;
+    margin: 30px auto;
+}
+
+div .subject {
+    display: block;
+    width: 350px;
+    height: 30px;
+    border: 2px solid purple;
+    border-radius: 15px;
+    margin: 30px auto;
+}
+
+div .form-field {
+    display: block;
+    width: 350px;
+    height: 150px;
+    border: 2px solid purple;
+    border-radius: 15px;
+    margin: 30px auto;
+}
+
+div.gallery {
+    margin-top: 100px;
+    margin-left: 17px;
+    margin-right: 17px;
+    border: 1px solid #ccc;
+    width: 180px;
+    display: inline-block;
+}
+
+div.gallery:hover {
+    border: 1px solid mediumpurple;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.description {
+    padding: 15px;
+    text-align: center;
+}
